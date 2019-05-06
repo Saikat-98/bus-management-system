@@ -1,0 +1,224 @@
+body,input,button{
+    border: 0;
+    margin: 0;
+    user-select: none;
+}
+#particles-js{
+    background-color: #659DBD;
+    height: 100vh;
+    overflow: hidden;
+}
+.header{
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    top: 1%;
+    left: 36%;
+    font-family: Amaranth;
+    text-shadow: 0px 0px 5px black;
+    animation-name: ani;
+    animation-delay: 0.05s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes ani{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top:1%;
+    }
+}
+.outer{
+    background-color: black;
+    position: absolute;
+    top: 47%;
+    left: 18%;
+    width: 1000px;
+    height: 200px;
+    opacity: 0;
+    animation-name: ani1;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    border-radius: 10px;
+}
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.mid{
+    display: inline;
+}
+.mid1{
+    display: none;
+}
+.header-outer{
+    position: absolute;
+    left: 180px;
+    padding: 50px;
+    color: #659DBD;
+    font-family: Amaranth;
+    text-shadow: 0px 0px 3px black;
+}
+.header-outer1{
+    position: absolute;
+    right: 200px;
+    padding: 50px;
+    color: #659DBD;
+    font-family: Amaranth;
+    text-shadow: 0px 0px 3px black;
+}
+.btn-11{
+    border: solid #659DBD 1px;
+    position: absolute;
+    left: 300px;
+    bottom: 54px;
+    padding: 10px 20px;
+    font-family: Amaranth;
+    color: #659DBD;
+    background-color: black;
+    box-shadow: 1px 1px 10px #659DBD;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-11:hover,.btn-31:hover{
+    background-color: #659DBD;
+    color: black;
+    font-weight: bold;
+}
+.btn-31{
+    border: solid #659DBD 1px;
+    position: absolute;
+    right: 310px;
+    bottom: 54px;
+    padding: 10px 20px;
+    font-family: Amaranth;
+    color: #659DBD;
+    background-color: black;
+    box-shadow: 1px 1px 10px #659DBD;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:focus,input:focus{
+    outline: none;
+}
+.mid-form{
+    border: solid black 3px; 
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    height: 380px;
+    width: 300px;
+    right: 60%;
+    top: -45%;
+    display: none;
+}
+.inner{
+    border: solid black 3px; 
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    height: 380px;
+    width: 300px;
+    left: 60%;
+    top: -45%;
+    display: inline;
+}
+.header-login{
+    font-size: 30px;
+    padding: 20px 40px;
+    font-family: Amaranth;
+}
+.header-signup{
+    font-size: 30px;
+    padding: 20px 40px;
+    font-family: Amaranth;
+}
+form{
+    padding: 20px 40px;
+}
+.input-text{
+    border-bottom: solid black 1px;
+}
+input::placeholder{
+    color: #659DBD;
+    font-family: Amaranth;
+}
+.div-button{
+    position: absolute;
+    left: 52px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.input-student,.input-staff,.input-admin,.input-faculty,.input1-student,.input1-staff,.input1-admin{
+    font-family: Amaranth;
+    font-weight: bold;
+    border-right: solid black 1px;
+    background-color: white;
+    cursor: pointer;
+}
+.input-student:hover,.input-staff:hover,.input-admin:hover,.input-faculty:hover,.input1-student:hover,.input1-staff:hover,.input1-admin:hover{
+    text-shadow: 0px 0px 0.5px black;
+    border-bottom: solid black 1px;
+}
+.input-student:focus,.input-staff:focus,.input-admin:focus,.input1-student:focus-within,.input1-staff:focus,.input1-admin:focus{
+    background-color: black;
+    color: #659DBD;
+    text-shadow: 0;
+}
+.btn-21,.btn-41{
+    position: absolute;
+    left: 191px;
+    bottom: 35px;
+    padding: 10px 20px;
+    font-family: Amaranth;
+    color: #659DBD;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+.btn-21:hover,.btn-41:hover{
+    color: black;
+    background-color: #659DBD;
+}
+.btn-41{
+    right: 191px;
+    bottom: 12px;
+}
+.accnt-type{
+    font-family: Amaranth;
+    color: #659DBD;
+    font-size: 14px;
+}
+.select-accnt{
+    position: absolute;
+    right: 30px;
+    font-family: Amaranth;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+select,option{
+    outline: none;
+    box-shadow: 0;
+    cursor: pointer;
+}
+select:hover{
+    transform: scale(1.1,1.1);
+}
+.option-1,.option-2,.option-3{
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
